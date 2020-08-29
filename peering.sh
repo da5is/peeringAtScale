@@ -2,6 +2,8 @@
 # iterate the vnets, and peer all the vnets with spoke in the name to the vnet with hub
 # in the name.
 
+# Subnets can not contain the name hub or spoke.  FIXTHIS
+
 # select resourcegroup
 rgname="rg-spokeautomation-airs-01"
 # dump vnets in the resource group into the array vnets
